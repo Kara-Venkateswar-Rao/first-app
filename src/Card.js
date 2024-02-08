@@ -1,5 +1,4 @@
 import React from "react";  
-import image from './images/img-1.jpg'
 import { NavLink } from "react-router-dom";
 
 

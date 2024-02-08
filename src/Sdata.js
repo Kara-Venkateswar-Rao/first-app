@@ -1,22 +1,22 @@
-import Web from './images/img-8.jpg'
-import App from './images/img-6.jpg'
-import Software from './images/img-1.jpg'
-import Digital from './images/img-5.jpg'
-import Marketing from './images/img-4.jpg'
-import Android from './images/img-3.jpg'
+import Web from './images/webdevelop.jpg'
+import App from './images/appdev.jpeg'
+import Software from './images/soft.jpg'
+import Digital from './images/digital.jpeg'
+import Marketing from './images/market.jpg'
+import Android from './images/android.jpg'
 
 const Sdata = [
     {
         imgsrc: Web,
-        title: "web devlopment" 
+        title: "Web development" 
     },
     {
         imgsrc: App,
-        title: "App devlopment" 
+        title: "App development" 
     },
     {
         imgsrc: Software,
-        title: "Software devlopment" 
+        title: "Software development" 
     },
     {
         imgsrc: Digital,
@@ -24,7 +24,7 @@ const Sdata = [
     },
     {
         imgsrc: Marketing,
-        title: "marketing" 
+        title: "Marketing" 
     },
     {
         imgsrc: Android,

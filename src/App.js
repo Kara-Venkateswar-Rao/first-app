@@ -6,6 +6,7 @@ import About from './About'
 import Servivce from './Services'
 import Contact from './Contact'
 import Navbar from './Navbar';
+import Reviews from './Reviews';
 import { BrowserRouter as Router, Switch, Route, Link, Routes } from 'react-router-dom';
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Route exact path='/about' Component={About}/>     
       <Route exact path='/service' Component={Servivce}/>     
       <Route exact path='/contact' Component={Contact}/>
+      <Route exact path='/reviews' Component={Reviews}/>
     </Routes>    
    </>
   );

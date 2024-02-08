@@ -25,9 +25,7 @@ const Common = (props) => {
                         </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </section>
      </>

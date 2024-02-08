@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { NavLink } from "react-router-dom";
 
 
 
@@ -17,7 +17,7 @@ const Contact = () => {
 
     return (
      <>
-        <div className="my-5">
+        <div className="my-3">
             <h1 className="text-center"> Contact Us </h1>
         </div>
         <div className="container contact_div">
@@ -30,7 +30,7 @@ const Contact = () => {
                      type="text" 
                      name="fullname"
                      // value={data.fullname}
-                     onChange={InputEvent}
+                     // onChange={InputEvent}
                      className="form-control" 
                      id="exampleFormControlInput1" 
                      placeholder="Enter your name"/>
@@ -41,7 +41,7 @@ const Contact = () => {
                      type="email" 
                      name="email"
                      // value={data.email}
-                     onChange={InputEvent}
+                     // onChange={InputEvent}
                      className="form-control" 
                      id="exampleFormControlInput1" 
                      placeholder="name@example.com"/>
@@ -52,7 +52,7 @@ const Contact = () => {
                      type="number" 
                      name="phone"
                      // value={data.Phone}
-                     onChange={InputEvent}
+                     // onChange={InputEvent}
                      className="form-control" 
                      id="exampleFormControlInput1" 
                      placeholder="9999999999"/>
@@ -62,13 +62,17 @@ const Contact = () => {
                   <textarea 
                    name="massage"
                   //  value={data.massage}
-                   onChange={InputEvent}
+                  //  onChange={InputEvent}
                   className="form-control" 
                   id="exampleFormControlTextarea1" 
-                  rows="3"></textarea>
+                  rows="2"></textarea>
                </div>
                <div className="col-12">
-                  <button className="btn btn-outline-primary" type="submit"> Submit </button>
+                  <button className="btn btn-get-strated btn-outline-primary" type="submit"> Submit </button>
+               </div>
+
+               <div className="my-4">
+                  <NavLink to='/reviews' className="btn-get-strated"> For more visit reviews </NavLink>
                </div>
                </form>
             </div>
