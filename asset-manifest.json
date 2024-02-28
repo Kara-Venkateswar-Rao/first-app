@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/first-react-app/static/css/main.5b477099.css",
+    "main.js": "/first-react-app/static/js/main.c839781c.js",
+    "static/media/market.jpg": "/first-react-app/static/media/market.5eb254f9f777af9c2c41.jpg",
+    "static/media/home.png": "/first-react-app/static/media/home.7b5dd36d840e6b9c3acb.png",
+    "static/media/webdevelop.jpg": "/first-react-app/static/media/webdevelop.ad3e54b8e8642456681a.jpg",
+    "static/media/about.png": "/first-react-app/static/media/about.0028c4518d186b73830f.png",
+    "static/media/soft.jpg": "/first-react-app/static/media/soft.1444e33deed637e59502.jpg",
+    "static/media/android.jpg": "/first-react-app/static/media/android.2cf0c7b87d3ec52d4172.jpg",
+    "static/media/appdev.jpeg": "/first-react-app/static/media/appdev.0b38ecc12edb507707a4.jpeg",
+    "static/media/digital.jpeg": "/first-react-app/static/media/digital.3924fea09e5769493add.jpeg",
+    "index.html": "/first-react-app/index.html",
+    "main.5b477099.css.map": "/first-react-app/static/css/main.5b477099.css.map",
+    "main.c839781c.js.map": "/first-react-app/static/js/main.c839781c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b477099.css",
+    "static/js/main.c839781c.js"
+  ]
+}
