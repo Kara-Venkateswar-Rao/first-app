@@ -13,7 +13,8 @@ const Servivce = () => {
                         <div className="row gy-4">
                            {
                               Sdata.map((val, idx)=>{
-                                 return <Card key={idx}
+                                 return <Card 
+                                    	key={idx}//give no error if we write it
                                        imgsrc={val.imgsrc}
                                        title={val.title}
 
